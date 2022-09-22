@@ -1,0 +1,9 @@
+1.技术选型：
+	方案：采取单独制作移动页面方案
+	技术：布局采用rem适配布局（less+rem+媒体查询）
+	设计图：采用750px设计尺寸
+2.新建css，img，upload文件
+3.引入normalize.css文件，以及meta
+4.设置公共common.less文件
+5.把设置好的common.less文件导入到index.less文件里面--在index.less文件最上面--@import("common")
+6.把生成的index.css引入到index.html
